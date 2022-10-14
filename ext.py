@@ -3,8 +3,8 @@
 # CreateTime: 2022/10/14 23:26
 
 from flask import Flask
-from apps.cars import cars_print
-from apps.goods import good_print
+from Apps.cars import cars_print
+from Apps.goods import good_print
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 from config import DataBaseConfig
