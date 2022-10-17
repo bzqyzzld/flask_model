@@ -8,4 +8,5 @@ from flask import Blueprint
 
 good_print = Blueprint("goods", __name__, url_prefix="/goods")
 
+
 from . import views

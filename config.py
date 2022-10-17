@@ -4,4 +4,4 @@
 
 
 class DataBaseConfig:
-    SQLALCHEMY_DATABASE_URI = "sqlite:///e:/New_Proj/test.db"
+    SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root@127.0.0.1:3306/newproj"
